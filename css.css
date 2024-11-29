@@ -1,0 +1,54 @@
+:root {
+    --Yellow: hsl(47, 88%, 63%);
+
+    --White: hsl(0, 0%, 100%);
+
+    --Gray500: hsl(0, 0%, 42%);
+    --Gray950: hsl(0, 0%, 7%);
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    background-color: var(--Yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500 800;
+  font-style: normal;
+}
+.container {
+    margin: 0 auto;
+    width: 370px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 9.5px 9.5px;
+    border: 1px solid;
+}
+.container img {
+    border-radius: 10px;
+}
+.button {
+    background-color: var(--Yellow);
+    padding: 8px;
+    border-radius: 9px;
+    border: 0px;
+}
+.greg {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
